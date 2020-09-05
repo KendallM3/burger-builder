@@ -36,8 +36,6 @@ class BurgerBuilder extends Component {
                 return sum + el;
             }, 0);
         this.setState({purchasable: sum > 0});
-        console.log('[BurgerBuilder.js] updatePurchaseState');
-        console.log(this.state.purchasable);
     }
     
     addIngredientHandler = (type) => {
