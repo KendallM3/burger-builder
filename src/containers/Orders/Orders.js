@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import OrderSummary from '../../components/Burger/OrderSummary/OrderSummary';
+// import OrderSummary from '../../components/Burger/OrderSummary/OrderSummary';
 import Order from '../../components/Order/Order';
 
 
@@ -15,7 +15,7 @@ class Orders extends Component {
     }
 }
 
-export default Order;
+export default Orders;
 
 
 
